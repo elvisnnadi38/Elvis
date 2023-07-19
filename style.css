@@ -13,13 +13,18 @@ html{
 
 /* WELCOME */
 .welcome{
-    width: 20%;
+    width: 50%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
     margin-left: 8px;
 }
 
+.welcome h1{
+    display: inline;
+}
+
 .auto-type{
+    
     color: rgb(57, 57, 59);
 }
 
@@ -107,6 +112,8 @@ html{
 
 
 
+
+
 .start1 p{
     font-family: Oxygen;
     font-weight: 500;
@@ -150,6 +157,7 @@ html{
     font-weight: 900;
     font-size: xx-large;
     text-align: center;
+    margin-bottom: 5%;
 }
 
 .p1{
@@ -159,17 +167,6 @@ html{
 }
 
 
-.line2 {
-    border-color: white;
-    max-width: 90%;
-    margin-left: 45px;
-    margin-right: 40px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    margin-top: 15px;
-  
-}
 
 
 .an1 a{
@@ -621,6 +618,7 @@ nav ul li{
 
 .image img{
     height: 27vh;
+    margin-top: 4%;
     
 }
 
@@ -636,7 +634,7 @@ nav ul li{
 .about-me{
     flex-direction: column;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 100%;
 }
 
 .start1{
@@ -646,16 +644,24 @@ nav ul li{
 
 
 .an1 p{
-    text-align: center;
     font-size: smaller;
+    display: block;
+}
+
+.an1 a{
     display: inline-block;
 }
 
 
 .welcome{
-    font-size: 18px;
-    margin-top: 2%;
+    width: 142%;
+    font-size: 17px;
+    margin-bottom: 15px;
 }
+
+
+
+
 
 .head-left h1{
     font-size: 30px;
@@ -665,11 +671,11 @@ nav ul li{
 }
 
 .my-experience{
-    margin-top: 50%;
+    margin-top: 100%;
 }
 
 .container-skills{
-    margin-top: 50px;
+    margin-top: 100%;
 }
 
 
